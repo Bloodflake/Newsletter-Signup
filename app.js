@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const https = require('https');
-const apiData = require('./config.js');
+// const apiData = require('./config.js');
 
 const app = express();
 
@@ -34,10 +34,12 @@ app.post("/", function(req, res) {
   };
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us1.api.mailchimp.com/3.0/lists/" + apiData.apiData.listId;
+  // const url = "https://us1.api.mailchimp.com/3.0/lists/" + apiData.apiData.listId;
+  const url = "https://us1.api.mailchimp.com/3.0/lists/" + process.env.list_id;
   const options = {
     method: "POST",
-    auth: "sumit:" + apiData.apiData.apiKey
+    // auth: "sumit:" + apiData.apiData.apiKey
+    auth: "sumit:" + process.env.api_key
   }
 
   const request = https.request(url, options, function(response) {
