@@ -6,7 +6,7 @@ This repo contain code for learning purpose Only.
 
 ## Working
 Access web app using [Link](https://whispering-cove-46927.herokuapp.com/)\
-If you want to locally use it then  install dependencies specified in [package.json](package.json) \
+If you want to locally use it Clone this repo, then  install dependencies specified in [package.json](package.json) \
  Create config.js file in root folder and add the following code
 ```
  module.exports.apiData = {
