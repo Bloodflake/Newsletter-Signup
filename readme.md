@@ -15,7 +15,8 @@ If you want to locally use it then  install dependencies specified in [package.j
  };
  ```
 Get api_key and list_id from [mailchimp](https://mailchimp.com/)
-
+then comment line 38 and 42 in [app.js](app.js)\
+and uncomment line 5, 37 and 41 in [app.js](app.js)
 ## Learning
 * Nodejs and express
 * External API usage
