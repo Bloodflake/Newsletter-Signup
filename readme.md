@@ -18,6 +18,8 @@ Get api_key and list_id from [mailchimp](https://mailchimp.com/)
 then comment line 38 and 42 in [app.js](app.js)\
 and uncomment line 5, 37 and 41 in [app.js](app.js)
 ## Learning
+* Backend programming
+* Front end technolgy like Html, Css and Bootstarp
 * Nodejs and express
 * External API usage
 * Deployment of Web app using Heroku
